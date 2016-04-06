@@ -7,6 +7,8 @@ Just clone the sources
 ```
 $ git clone https://github.com/rupakraj/my-reminder.git /path/to/your/home
 ```
+### Run
+``` $ make ```
 
 ### Make sample data
 The data is plain text file in the format of **yaml**. Sample file is included in the _data/TODO-sample.yaml_

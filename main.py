@@ -1,9 +1,10 @@
 import os
 import yaml
 
+todoFile = "data/todo.yaml"
 
 def check_todo():
-    with open("data/TODO.yaml", 'r') as todo_file:
+    with open(todoFile, 'r') as todo_file:
         todo = yaml.load(todo_file)
 
     for type_name in todo:
